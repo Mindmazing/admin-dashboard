@@ -311,6 +311,9 @@ body {
   padding: 2em;
   background-color: #fff;
   border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .trending,
@@ -322,4 +325,28 @@ body {
 .trending > div,
 .announcements > div {
   flex: 1;
+}
+
+.announcements-container > div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.announcements-container > div:not(:last-child) {
+  border-bottom: 1px solid var(--light-text-color);
+}
+
+.announcements-cotainer p {
+  opacity: 0.8;
+}
+
+.trending-item {
+  display: flex;
+  gap: 1em;
+}
+
+.trending-item img {
+  width: 3em;
 }
