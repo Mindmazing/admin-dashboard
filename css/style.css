@@ -101,3 +101,27 @@ h6 {
   --text-color: #334257;
   --light-text-color: #8fa0b9;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "side-nav top-nav"
+    "side-nav main-dash";
+  grid-template-columns: 1fr 5fr;
+}
+
+.side-navigation {
+  grid-area: side-nav;
+}
+
+.top-navigation {
+  grid-area: top-nav;
+}
+
+.main-dashboard {
+  grid-area: main-dash;
+}
