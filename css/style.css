@@ -93,3 +93,11 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* CSS Variables */
+:root {
+  --primary-color: #eeeeee;
+  --secondary-color: #548ca8;
+  --text-color: #334257;
+  --light-text-color: #8fa0b9;
+}
