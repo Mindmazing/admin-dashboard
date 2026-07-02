@@ -301,3 +301,25 @@ body {
   gap: 1.5em;
   justify-content: end;
 }
+
+.project-card div:last-child img {
+  cursor: pointer;
+}
+
+.announcements-container,
+.trending-container {
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+
+.trending,
+.announcements {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending > div,
+.announcements > div {
+  flex: 1;
+}
